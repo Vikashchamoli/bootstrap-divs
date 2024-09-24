@@ -31,7 +31,7 @@
             }
             #container2{height: 60vh;display: flex;
   flex-direction: row;
-  align-items: start;}
+  align-items: start;justify-content: center;}
 
   .col-4 {border: 1px solid black;
   height: 54vh;
@@ -55,8 +55,14 @@
  .box{background-color: #F5F4E1;width: 98%;
  }
  .span8{border: 1px solid black;height: 19vh;
-  width:inherit;background-color: #E6FEFE;border-radius: 3px;box-shadow: rgba(255, 248, 248, 0.05) 0px 0px 0px 1px, rgb(247, 249, 252) 0px 0px 0px 4px inset;
+  width: inherit;background-color: #E6FEFE;border-radius: 3px;box-shadow: rgba(255, 248, 248, 0.05) 0px 0px 0px 1px, rgb(247, 249, 252) 0px 0px 0px 4px inset;
 }
+
+
+
+
+
+  
     </style>
 </head>
 <body>
@@ -64,7 +70,7 @@
     <div class="page">
     <div class="container" > 
     <div class="para" style="width: 100vw;">row</div>
-        <div class="container-lg" style="border-radius: 3px;box-shadow: rgba(255, 248, 248, 0.05) 0px 0px 0px 1px, rgb(247, 249, 252) 0px 0px 0px 4px inset;background-color: #E6FEFE; margin-bottom: 9px; align-items: center; border: 1px solid black;border-radius: 1px;">
+        <div class="container-lg" style="border-radius: 3px;box-shadow: rgba(255, 248, 248, 0.05) 0px 0px 0px 1px, rgb(247, 249, 252) 0px 0px 0px 4px inset;background-color: #E6FEFE; margin-bottom: 9px; align-items: center; border: 1px solid black;border-radius: 3px;">
            <div class="span" style="
           
            margin: 5px;">span12</div>
@@ -80,7 +86,7 @@
             <div class="col-8">
                 <span id="span18">span18</span>
                 <div class="box">
-                    <div class="boxrow">row</div>
+                    <div class="container-lg">row</div>
 
                     <div class="spans">
                         <div class="span2" style="border-radius: 10px;">span4</div>
@@ -89,7 +95,7 @@
                 </div>
 
 
-                <div class="box" style="display: flex;
+                <div class="box"  style="display: flex;
                 flex-direction: column;
                 align-items: center;">
                     <div class="boxrow">row</div>
